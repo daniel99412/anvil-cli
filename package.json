@@ -1,0 +1,36 @@
+{
+  "name": "anvil",
+  "version": "1.0.0",
+  "description": "A CLI to generate Java projects with a hexagonal architecture.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "anvil": "./bin/anvil"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "java",
+    "generator",
+    "hexagonal",
+    "architecture",
+    "spring",
+    "boot",
+    "cli"
+  ],
+  "dependencies": {
+    "axios": "^1.13.2",
+    "chalk": "^5.6.2",
+    "extract-zip": "^2.0.1",
+    "figlet": "^1.9.4",
+    "inquirer": "^13.0.2",
+    "minimist": "^1.2.8",
+    "ora": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "prettier": "^3.7.4"
+  }
+}
