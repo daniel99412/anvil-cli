@@ -28,13 +28,20 @@ A powerful Command Line Interface (CLI) tool to rapidly scaffold multi-module Ja
 To use the CLI, ensure you have Node.js installed. Then, run the following command in your terminal:
 
 ```bash
-npx anvil```
+npx anvil
+```
 
 The CLI will guide you through a series of interactive prompts to configure your new project. Alternatively, you can provide options directly via command-line arguments (e.g., `npx anvil --projectName my-new-app --javaVersion 17`).
 
 **Example interactive session (output may vary based on selections):**
 
 ```
+     _                      _   _
+    / \     _ __   __   __ (_) | |
+   / _ \   | '_ \  \ \ / / | | | |
+  / ___ \  | | | |  \ V /  | | | |
+ /_/   \_\ |_| |_|   \_/   |_| |_|
+
 ✔ Project Name: my-project
 ✔ Group ID: com.example
 ✔ Java Version: 25
@@ -49,8 +56,7 @@ The CLI will guide you through a series of interactive prompts to configure your
 
 ✨ Proyecto generado en: /Users/daniel/Developer/Personal/anvil-cli/my-project-api
 
-ℹ️ Please run 'gradle wrapper' in the 'my-project-api' directory to generate Gradle wrapper scripts.
-
+ℹ️  Please run 'gradle wrapper' in the 'my-project-api' directory to generate Gradle wrapper scripts.
 ```
 
 After generation, navigate into your new project directory and run the Gradle wrapper command:
